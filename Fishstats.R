@@ -1,8 +1,6 @@
 # Setup -------------------------------------------------------------------
 rm(list=ls()) # Clears workspace
 
-#system("sudo apt install libgeos-dev libproj-dev libgdal-dev libudunits2-dev -y") # Install linux geospatial dependencies 
-
 # Install/call libraries
 install.packages("renv")
 #renv::init()
